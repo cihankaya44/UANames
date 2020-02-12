@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c96b6382-53e2-4ab7-9b4d-b691633d6efd" name="Default Changelist" comment="" />
+    <list default="true" id="c96b6382-53e2-4ab7-9b4d-b691633d6efd" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/automation/test/UINames/UINamesClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/automation/test/UINames/UINamesClass.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +20,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -23,10 +31,17 @@
     </option>
   </component>
   <component name="ProjectId" id="1Xfc3PSYambcJcwsZxkSzxKHqOq" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.automation.test.utilities" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -40,8 +55,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.UINamesClass.Gender_Test">
-    <configuration name="UINamesClass" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.UINamesClass.Amount_Count_Test">
+    <configuration name="UINamesClass.Amount_Count_Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="HomeWorkUINamesTesting" />
       <extension name="coverage">
         <pattern>
@@ -51,28 +66,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.automation.test.UINames" />
       <option name="MAIN_CLASS_NAME" value="com.automation.test.UINames.UINamesClass" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UINamesClass.Gender_Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="HomeWorkUINamesTesting" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.automation.test.UINames.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.automation.test.UINames" />
-      <option name="MAIN_CLASS_NAME" value="com.automation.test.UINames.UINamesClass" />
-      <option name="METHOD_NAME" value="Gender_Test" />
+      <option name="METHOD_NAME" value="Amount_Count_Test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UINamesClass.no_param_test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="UINamesClass.Amount_Region_Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="HomeWorkUINamesTesting" />
       <extension name="coverage">
         <pattern>
@@ -82,7 +82,55 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.automation.test.UINames" />
       <option name="MAIN_CLASS_NAME" value="com.automation.test.UINames.UINamesClass" />
-      <option name="METHOD_NAME" value="no_param_test" />
+      <option name="METHOD_NAME" value="Amount_Region_Test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UINamesClass.Invalid_Region_Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="HomeWorkUINamesTesting" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.automation.test.UINames.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.automation.test.UINames" />
+      <option name="MAIN_CLASS_NAME" value="com.automation.test.UINames.UINamesClass" />
+      <option name="METHOD_NAME" value="Invalid_Region_Test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UINamesClass.Same_Region_Gender" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="HomeWorkUINamesTesting" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.automation.test.UINames.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.automation.test.UINames" />
+      <option name="MAIN_CLASS_NAME" value="com.automation.test.UINames.UINamesClass" />
+      <option name="METHOD_NAME" value="Same_Region_Gender" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UINamesClass.test7" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="HomeWorkUINamesTesting" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.automation.test.UINames.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.automation.test.UINames" />
+      <option name="MAIN_CLASS_NAME" value="com.automation.test.UINames.UINamesClass" />
+      <option name="METHOD_NAME" value="test7" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -90,9 +138,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.UINamesClass.Gender_Test" />
-        <item itemvalue="JUnit.UINamesClass.no_param_test" />
-        <item itemvalue="JUnit.UINamesClass" />
+        <item itemvalue="JUnit.UINamesClass.Amount_Count_Test" />
+        <item itemvalue="JUnit.UINamesClass.Same_Region_Gender" />
+        <item itemvalue="JUnit.UINamesClass.test7" />
+        <item itemvalue="JUnit.UINamesClass.Amount_Region_Test" />
+        <item itemvalue="JUnit.UINamesClass.Invalid_Region_Test" />
       </list>
     </recent_temporary>
   </component>
@@ -109,18 +159,15 @@
     </task>
     <servers />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/test/java/com/automation/test/UINames/UINamesClass.java</url>
-          <line>45</line>
-          <properties class="com.automation.test.UINames.UINamesClass" method="Gender_Test">
-            <option name="EMULATED" value="true" />
-          </properties>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
